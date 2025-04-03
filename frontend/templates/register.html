@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Poker Login</title>
+	<link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+	<h1> Login to your account: </h1>
+	<form action="/register-user" method="POST">
+		<label for="username">Username:</label>
+		<input type="text" id="username" name="username" required>
+		<br>
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required>
+		<br>
+		<label for="password" >Confirm Password:</label>
+		<input type="password" id="conf-password" name="conf-password" required>
+		<br>
+		<label for="birthday">Date of Birth:</label>
+		<input type="date" id="birthday" name="dob" required>
+		<br>
+		<label for="email">Enter your email:</label>
+		<input type="email" id="email" name="email" required>
+		<button type="submit">Register</button>
+</body>
+</html>
+
